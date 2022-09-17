@@ -1,0 +1,276 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67108f35b6bc952489c7fab2d3df2114, type: 3}
+  m_Name: Resources Manager
+  m_EditorClassIdentifier: 
+  coins: 100
+  selectedSkin: 0
+  skins:
+  - icon: {fileID: 21300000, guid: 7278cd6ce2693fc4ba9c8711f6629484, type: 3}
+    id: Skin_0
+    type: 0
+    sex: 0
+    prefab: {fileID: 1681861699944442266, guid: d524168b5eb92dc48a5026a7c186e62b, type: 3}
+    unlockType: 1
+    unlockLevel: -1
+    storePrefab: {fileID: 6692238328202832232, guid: a30675de79088db43b53f9b541b78266, type: 3}
+    isUnlocked: 1
+    isClaimed: 1
+  - icon: {fileID: 21300000, guid: 5c1bc7743f27cf34d91e3799f79786fe, type: 3}
+    id: Skin_1
+    type: 0
+    sex: 1
+    prefab: {fileID: 7822805894504354087, guid: dc56142c912b17c488da9cb71057e378, type: 3}
+    unlockType: 0
+    unlockLevel: 50
+    storePrefab: {fileID: 3686798621863769718, guid: 760c40c5817564d4ebc71bba15b736cc, type: 3}
+    isUnlocked: 0
+    isClaimed: 0
+  - icon: {fileID: 21300000, guid: 1ea1463461a4cb64caeaa749a73c38a7, type: 3}
+    id: Skin_2
+    type: 0
+    sex: 0
+    prefab: {fileID: 4271490994771398092, guid: 69193015f1ec82049bd462ca81f144eb, type: 3}
+    unlockType: 0
+    unlockLevel: 4
+    storePrefab: {fileID: 4178798343591269320, guid: af219432336d57a49b4bb31c071ee335, type: 3}
+    isUnlocked: 0
+    isClaimed: 0
+  - icon: {fileID: 21300000, guid: 1466a3e131993914b82014e8daf9e8b3, type: 3}
+    id: Skin_3
+    type: 0
+    sex: 0
+    prefab: {fileID: 4036441600796060236, guid: 76872399bc0303840a4bf62ba7eefa73, type: 3}
+    unlockType: 0
+    unlockLevel: 2
+    storePrefab: {fileID: 5261955291359238564, guid: bb66c3e9739c4c544b8d82b9815665bc, type: 3}
+    isUnlocked: 0
+    isClaimed: 0
+  agents:
+  - icon: {fileID: 21300000, guid: 8853d10b69605a2419ef6c55ff3bbaff, type: 3}
+    id: Agent_0
+    sex: 0
+    prefab: {fileID: 2758086896176828220, guid: 8a581c0c1841b044a883730236ec0750, type: 3}
+  - icon: {fileID: 21300000, guid: 5876bf418f6a8cf4f9bad19dae7f52da, type: 3}
+    id: Agent_1
+    sex: 0
+    prefab: {fileID: 7850461503297739440, guid: 41c4203817950574794ac1bed352b2d8, type: 3}
+  - icon: {fileID: 21300000, guid: b0e076b86f79f4e469936e7f87db9114, type: 3}
+    id: Agent_2
+    sex: 0
+    prefab: {fileID: 490008522943195704, guid: 2ef332ccfb715f5419c768b5c64ff388, type: 3}
+  - icon: {fileID: 21300000, guid: 6adaeab90505b954d960929308f106f4, type: 3}
+    id: Agent_3
+    sex: 0
+    prefab: {fileID: 5465519477341244946, guid: 4dea8789f4561e649bb822b10945f93b, type: 3}
+  - icon: {fileID: 21300000, guid: 56b3cece125ffcf4a8aadc9bbc8f7cd1, type: 3}
+    id: Agent_4
+    sex: 1
+    prefab: {fileID: 6699836410066289448, guid: 74eaea8c32dc7034a8e6c48bd909e9a0, type: 3}
+  - icon: {fileID: 21300000, guid: ca145792381b85e41aa3fbe016ff1ea4, type: 3}
+    id: Agent_5
+    sex: 1
+    prefab: {fileID: 782300322764420163, guid: 50ee40783dfdfd543991a006d6f43ba8, type: 3}
+  - icon: {fileID: 21300000, guid: 53f0954c878559e4a97ef46eeba49a6f, type: 3}
+    id: Agent_6
+    sex: 0
+    prefab: {fileID: 6422134248065987910, guid: c9e54dc92b60518449b3f806940c311b, type: 3}
+  - icon: {fileID: 21300000, guid: 0111ee1bb8810ab44bd6ba413fa00618, type: 3}
+    id: Agent_7
+    sex: 0
+    prefab: {fileID: 7434058023804086969, guid: c6b07e87da3e3cc4cb7ec36caee2219e, type: 3}
+  selectedWeapon: 0
+  weapons:
+  - icon: {fileID: 21300000, guid: 1d989bfe85f90bd4d996e702ea680470, type: 3}
+    id: Weapon_0
+    position: {x: 0.02800066, y: 0.01589898, z: 0.1607997}
+    rotation: {x: 85.451065, y: 171.88782, z: 12.568762}
+    scale: {x: 1, y: 1, z: 1}
+    prefab: {fileID: 6677368995417712773, guid: 4f7148e07b34e4140bc8cff57bbd10fb, type: 3}
+    type: 1
+    unlockType: 1
+    unlockLevel: -1
+    shopPrefab: {fileID: 8719519973200072451, guid: 0bf56fa057415a44988dba5d571ac2f3, type: 3}
+    isUnlocked: 1
+    isClaimed: 1
+  - icon: {fileID: 21300000, guid: fbaceb61b8f58e24db40b1cbd13504bf, type: 3}
+    id: Weapon_1
+    position: {x: 0.039, y: 0.046, z: 0.115}
+    rotation: {x: 85.45097, y: 171.88797, z: 13.317859}
+    scale: {x: 1, y: 1, z: 1}
+    prefab: {fileID: 6677368995417712773, guid: d17863426d623bc45b3614afecfb6680, type: 3}
+    type: 1
+    unlockType: 0
+    unlockLevel: 9
+    shopPrefab: {fileID: 513770964807703354, guid: 6110868b59f41194f92f3d202e04953a, type: 3}
+    isUnlocked: 0
+    isClaimed: 0
+  - icon: {fileID: 21300000, guid: edf9e1abdc19bad4fa0c43f6eb022db5, type: 3}
+    id: Weapon_2
+    position: {x: 0.034, y: 0.019, z: 0.094}
+    rotation: {x: 85.4511, y: 171.88812, z: 17.767054}
+    scale: {x: 1, y: 1, z: 1}
+    prefab: {fileID: 6677368995417712773, guid: 1a03ad9b86655f946b3e2e995c9b3c39, type: 3}
+    type: 1
+    unlockType: 0
+    unlockLevel: 3
+    shopPrefab: {fileID: 3400483586693858345, guid: 9338f78a0faf6634babbeb74e633ae82, type: 3}
+    isUnlocked: 0
+    isClaimed: 0
+  - icon: {fileID: 21300000, guid: d27a4f88a86ebc041b58b8ff110dc0b8, type: 3}
+    id: Weapon_3
+    position: {x: 0.052, y: 0.051, z: 0.101}
+    rotation: {x: 80.229095, y: 325.88113, z: 171.73546}
+    scale: {x: 1, y: 1, z: 1}
+    prefab: {fileID: 6677368995417712773, guid: 70a950fb7a927ea4da0218ab5fa60d99, type: 3}
+    type: 1
+    unlockType: 0
+    unlockLevel: 51
+    shopPrefab: {fileID: 5902021454458032083, guid: c4186c4d7a8eeb244a1323b4e069e091, type: 3}
+    isUnlocked: 0
+    isClaimed: 0
+  - icon: {fileID: 21300000, guid: a2dee76475024a945bc4aa71167f8a49, type: 3}
+    id: Weapon_4
+    position: {x: 0.042, y: 0.04, z: 0.098}
+    rotation: {x: 88.341, y: 294.762, z: 137.184}
+    scale: {x: 1, y: 1, z: 1}
+    prefab: {fileID: 6677368995417712773, guid: 1148479682ce94f4bb98c0c290e7f280, type: 3}
+    type: 1
+    unlockType: 0
+    unlockLevel: 5
+    shopPrefab: {fileID: 4843489289762604895, guid: 2be68477333634f43a44fd86b3788ab7, type: 3}
+    isUnlocked: 0
+    isClaimed: 0
+  - icon: {fileID: 21300000, guid: a0df438bb65517441adc88af9607cb43, type: 3}
+    id: Weapon_5
+    position: {x: 0.056, y: 0.03, z: 0.1}
+    rotation: {x: 89.566, y: 257.82, z: 96.854}
+    scale: {x: 1, y: 1, z: 1}
+    prefab: {fileID: 6677368995417712773, guid: 3f009e1d7f376b64ca8715776459455d, type: 3}
+    type: 1
+    unlockType: 0
+    unlockLevel: 6
+    shopPrefab: {fileID: 3107921653023439142, guid: df419ec765217d549816b29977481bad, type: 3}
+    isUnlocked: 0
+    isClaimed: 0
+  - icon: {fileID: 21300000, guid: 0e5e2de67794b6249a88d7f37ac9855c, type: 3}
+    id: Weapon_6
+    position: {x: 0.095, y: 0.106, z: 0.045}
+    rotation: {x: 90.54001, y: 173.287, z: 1.251007}
+    scale: {x: 1, y: 1, z: 1}
+    prefab: {fileID: 6677368995417712773, guid: a786a3594a0ef5b4d8b1f61d002b751a, type: 3}
+    type: 1
+    unlockType: 0
+    unlockLevel: 7
+    shopPrefab: {fileID: 7552922667011959378, guid: 02878fa36728f3d48aa35d08d7a91028, type: 3}
+    isUnlocked: 0
+    isClaimed: 0
+  - icon: {fileID: 21300000, guid: b618d447b72096e4eb429f0615e3ac5c, type: 3}
+    id: Weapon_7
+    position: {x: 0.035, y: 0.029, z: 0.145}
+    rotation: {x: 85.451, y: 171.888, z: 5.484}
+    scale: {x: 1, y: 1, z: 1}
+    prefab: {fileID: 6677368995417712773, guid: 8905595c7f5f77a4bb1f23b69894dbc0, type: 3}
+    type: 1
+    unlockType: 0
+    unlockLevel: 8
+    shopPrefab: {fileID: 3064262269519253178, guid: 67fb98409b21d6f4caea66dca1e0afc9, type: 3}
+    isUnlocked: 0
+    isClaimed: 0
+  - icon: {fileID: 21300000, guid: fc312a2a44d11814c86e2babc0a72fc7, type: 3}
+    id: Weapon_8
+    position: {x: 0.063, y: 0.023, z: 0.101}
+    rotation: {x: 85.451, y: 171.888, z: 5.484}
+    scale: {x: 1, y: 1, z: 1}
+    prefab: {fileID: 6677368995417712773, guid: 64684e9e46221e44680f640a2932a7c5, type: 3}
+    type: 1
+    unlockType: 0
+    unlockLevel: 1
+    shopPrefab: {fileID: 857291693731033436, guid: e6464e8b1df9b3e4d9e4e05c3524032c, type: 3}
+    isUnlocked: 0
+    isClaimed: 0
+  selectedLevel: 0
+  levels:
+  - id: Level 0
+    prefab: {fileID: 5047260649866705310, guid: 18ec5bb2ad6960b44a40ed4e069e48f3, type: 3}
+    agentsIndexRange: {x: 0, y: 5}
+    weaponIndexRange: {x: 0, y: 3}
+    phaseNo: 1
+    levelComplete: 0
+  - id: Level 1
+    prefab: {fileID: 856971067972594634, guid: 054b4b2a77f1d0d49a6cae5fb40270e4, type: 3}
+    agentsIndexRange: {x: 0, y: 7}
+    weaponIndexRange: {x: 0, y: 7}
+    phaseNo: 1
+    levelComplete: 0
+  - id: Level 2
+    prefab: {fileID: 4644531578716997361, guid: f3b6ae8ee2b677d43aabb163b07c9770, type: 3}
+    agentsIndexRange: {x: 0, y: 8}
+    weaponIndexRange: {x: 0, y: 9}
+    phaseNo: 1
+    levelComplete: 0
+  - id: Level 3
+    prefab: {fileID: 3439149176787191812, guid: 74082cc28fe4587478a29b5530cb59a0, type: 3}
+    agentsIndexRange: {x: 0, y: 8}
+    weaponIndexRange: {x: 0, y: 9}
+    phaseNo: 1
+    levelComplete: 0
+  - id: Level 4
+    prefab: {fileID: 9105486465845495649, guid: ce648f1f81917e040a59bc61374c84ee, type: 3}
+    agentsIndexRange: {x: 0, y: 8}
+    weaponIndexRange: {x: 0, y: 9}
+    phaseNo: 1
+    levelComplete: 0
+  - id: Level 5
+    prefab: {fileID: 4412654575290297525, guid: c1cc71bdb48ac10469893eab171534dd, type: 3}
+    agentsIndexRange: {x: 0, y: 8}
+    weaponIndexRange: {x: 0, y: 9}
+    phaseNo: 1
+    levelComplete: 0
+  - id: Level 6
+    prefab: {fileID: 862855314849018597, guid: 1300ec355662887408c494ba694647da, type: 3}
+    agentsIndexRange: {x: 0, y: 8}
+    weaponIndexRange: {x: 0, y: 9}
+    phaseNo: 1
+    levelComplete: 0
+  - id: Level 7
+    prefab: {fileID: 4585899655338377306, guid: d147554dbd6a53048ab10758ef6f14ef, type: 3}
+    agentsIndexRange: {x: 0, y: 8}
+    weaponIndexRange: {x: 0, y: 9}
+    phaseNo: 1
+    levelComplete: 0
+  - id: Level 8
+    prefab: {fileID: 2787910611237305989, guid: e3bad85b6ef08654399ca0a5b16fd9be, type: 3}
+    agentsIndexRange: {x: 0, y: 8}
+    weaponIndexRange: {x: 0, y: 9}
+    phaseNo: 1
+    levelComplete: 0
+  upgradableData:
+    coins_reward: 200
+    power_Player: 16
+    health_Player: 100
+    power_Agent: 16
+    health_Agent: 100
+    power_Price: 100
+    health_Price: 100
+  upgrader:
+    coinsRewardIncrementWin: 200
+    coinsIncrementLose: 20
+    upgradeIncrementPrice: 100
+    powerIncrememt_Player: 3
+    healthIncrement_Player: 20
+    powerIncrememt_Agent: 3
+    healthIncrement_Agent: 20
+  settingsData:
+    viberateOn: 1
+    sfxOn: 1
+    hasViewedTutorial: 1
