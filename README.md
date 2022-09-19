@@ -1,7 +1,5 @@
 # Knight-Duel
 
-# Knight-Duel
-
 <p align="center"><img width=100% src="Docs/Feature graphic.jpg")></p>
 
 ![Release](https://img.shields.io/badge/Release-5.10.2021-brightgreen)
